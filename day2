@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Q.2Create a blog post layout using article, section, aside, and figure with a caption.</h1>
+
+        <article>
+            <h1>Understanding Blog post</h1>
+            <section>
+                <h2>What is a Blog Post?</h2>
+                <p>A blog post is a piece of writing or content that is published on a blog, which is a type of website. It can cover various topics and is often written in an informal or conversational style.</p>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6PmdQn-J1VsNswHGEn8AcyeWz0eLxGUP5hg&s" alt="Blog Post Example">
+                <figcaption>Example of a Blog Post</figcaption>
+            </figure>
+
+            <aside>
+                <h3>Related topics</h3>
+                <ul>
+<li><a href="#"></a>Learning Coding</li>
+<li><a href="#"></a>Learning Cooking</li>
+<li><a href="#"></a>Learning travel</li>
+                </ul>
+            </aside>
+            </section>
+        </article>
+<h1>Q3. Embed a video with video> and track> elements, ensuring captions display correctly.</h1>
+<video controls width="800">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <track src="captions_en.vtt" kind="subtitles" srclang="en" label="English">
+   
+    Your browser does not support the video tag.
+</video>
+    </div>
+</body>
+
+</html>
